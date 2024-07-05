@@ -1,0 +1,81 @@
+/* body */
+body {
+    background-color: #EACEB7;
+}
+
+/* hr */
+hr {
+    border: 2px solid #D29766;
+}
+
+/* name-avatar */
+.name-avatar {
+    display: flex;
+    justify-content: space-between;
+}
+
+#fullname {
+    font-size: 40px;
+    color: aqua;
+}
+
+#jpb {
+    font-size: 40px;
+    color: yellow
+}
+
+#img1 {
+    width: 200px;
+    margin: 50px;
+}
+
+/* contact-info */
+.contact-info {
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 1px;
+
+}
+
+.item1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* records */
+.records {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.item2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.communication-list {
+    list-style: none;
+}
+
+.item3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+/* experience */
+.experience {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.refferences {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
